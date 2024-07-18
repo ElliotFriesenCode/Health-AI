@@ -2,7 +2,7 @@
 
 This API allows users to input symptoms and receive recommendations for possible conditions along with Amazon referral links to relevant medicines. The API leverages machine learning to predict conditions based on symptoms and uses web scraping to fetch medicine links from Amazon.
 
-How to use:
+<h3>How to use:</h3>
 1. Clone the repository:
 2. Install depedendencies
 - Flask: Web framework for Python.
@@ -22,6 +22,6 @@ response object: {
 }
 
 
-How it Works:
+<h3>How it Works:</h3>
 
 Using NLTK and a fuzzy search, this api extracts symptoms from a patients description. Then it utilizes a random forest classifier to predict conditions and medicines. The dataset used for this project is from a variety of resources such as WebMD and MayoClinic
