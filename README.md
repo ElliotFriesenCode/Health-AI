@@ -6,9 +6,9 @@ This API allows users to input symptoms and receive recommendations for possible
 1. Clone the repository <br>
 2. Install depedendencies <br>
 - Flask: Web framework for Python.
- - NLTK: Natural Language Toolkit for text processing.
- - pandas: Data manipulation and analysis library.
- - scikit-learn: Machine learning library.
+ - NLTK: Natural Language Toolkit for text processing.<br>
+ - pandas: Data manipulation and analysis library.<br>
+ - scikit-learn: Machine learning library.<br>
 3. Run train_model.py <br>
 4. Run the flask app: python handler.py <br>
 5. call the endpoint '/predict'
