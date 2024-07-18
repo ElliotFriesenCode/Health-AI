@@ -5,7 +5,7 @@ This API allows users to input symptoms and receive recommendations for possible
 <h3>How to use:</h3>
 1. Clone the repository <br>
 2. Install depedendencies <br>
-- Flask: Web framework for Python.
+- Flask: Web framework for Python.<br>
  - NLTK: Natural Language Toolkit for text processing.<br>
  - pandas: Data manipulation and analysis library.<br>
  - scikit-learn: Machine learning library.<br>
