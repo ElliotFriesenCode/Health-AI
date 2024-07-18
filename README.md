@@ -13,7 +13,7 @@ This API allows users to input symptoms and receive recommendations for possible
 4. Run the flask app: python handler.py <br>
 5. Call the endpoint '/predict'
 
-request body: {  'text': 'youor symptoms' }
+request body: {  'text': 'your symptoms' }
 
 response object: {
         "matched_symptoms": symptoms extracted from your description,
