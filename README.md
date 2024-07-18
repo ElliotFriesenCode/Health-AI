@@ -11,7 +11,7 @@ This API allows users to input symptoms and receive recommendations for possible
  - scikit-learn: Machine learning library.<br>
 3. Run train_model.py <br>
 4. Run the flask app: python handler.py <br>
-5. Call the endpoint '/predict'
+5. Call the endpoint '/predict' <br>
 
 request body: {  'text': 'your symptoms' }
 
