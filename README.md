@@ -24,4 +24,4 @@ response object: {
 
 How it Works:
 
-USing NLTK and a fuzzy search, this api extracts symptoms from a patients description. Then it utilizes a random forest classifier to predict conditions and medicines. The dataset used for this project is from a variety of resources such as WebMD and MayoClinic
+Using NLTK and a fuzzy search, this api extracts symptoms from a patients description. Then it utilizes a random forest classifier to predict conditions and medicines. The dataset used for this project is from a variety of resources such as WebMD and MayoClinic
