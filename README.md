@@ -3,14 +3,14 @@
 This API allows users to input symptoms and receive recommendations for possible conditions along with Amazon referral links to relevant medicines. The API leverages machine learning to predict conditions based on symptoms and uses web scraping to fetch medicine links from Amazon.
 
 <h3>How to use:</h3>
-1. Clone the repository:
-2. Install depedendencies
+1. Clone the repository <br>
+2. Install depedendencies <br>
 - Flask: Web framework for Python.
  - NLTK: Natural Language Toolkit for text processing.
  - pandas: Data manipulation and analysis library.
  - scikit-learn: Machine learning library.
-3. Run train_model.py
-4. Run the flask app: python handler.py
+3. Run train_model.py <br>
+4. Run the flask app: python handler.py <br>
 5. call the endpoint '/predict'
 
 request body: {  'text': 'youor symptoms' }
